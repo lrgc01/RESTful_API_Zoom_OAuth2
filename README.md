@@ -1,20 +1,20 @@
-* Vanhackathon 2019 - Vanhack only
+# Vanhackathon 2019 - Vanhack only
 
-- Theme: Surprise Us
+ Theme: Surprise Us
 
-*** A management system for the Premium Interview English classes. (the one I have chosen)
+### A management system for the Premium Interview English classes. (the one I have chosen)
 
 Nowadays, we rely on Google Calendar to show candidates the times, dates and content of our classes, and on Slack to share a Google Sheets link where they can write down their name and email to sign up and find the Zoom meeting link for that class. 
 
 Please see this diagram to understand how it works: [https://drive.google.com/file/d/1_8F00iKeohH43jAnvwETO_dgHCDIfBcZ/view?usp=sharing](https://drive.google.com/file/d/1_8F00iKeohH43jAnvwETO_dgHCDIfBcZ/view?usp=sharing)
 
-**** What to expect:
+#### What to expect:
 
  - We would like this process to happen inside the platform, without relying on Google Calendar, Google Sheets, and Slack.
 
-** Solution
+## Solution
 
-*** Model
+### Model
 
   - event (English class or any (Zoom) meeting?)
     - id
@@ -42,7 +42,7 @@ Please see this diagram to understand how it works: [https://drive.google.com/fi
     - id
     - type [ class, speach, workshop, pep talk, ...]
 
-*** Pre-requisites
+### Pre-requisites
   - Authorization
     - OAuth authentication
 
@@ -57,7 +57,7 @@ Please see this diagram to understand how it works: [https://drive.google.com/fi
     - Teachers or other staff at VanHack
     - Event
 
-*** ToDo List
+### ToDo List
   - List of person at the beginning - ok
   - Form to list meetings and select one to attend - list ok, form not ok
     - Check for Premium and English - ok
